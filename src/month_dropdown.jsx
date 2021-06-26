@@ -4,7 +4,7 @@ import MonthDropdownOptions from "./month_dropdown_options";
 import onClickOutside from "react-onclickoutside";
 import * as utils from "./date_utils";
 
-const WrappedMonthDropdownOptions = onClickOutside(MonthDropdownOptions);
+let WrappedMonthDropdownOptions = onClickOutside(MonthDropdownOptions);
 
 export default class MonthDropdown extends React.Component {
   static propTypes = {
